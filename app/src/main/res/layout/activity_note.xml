@@ -16,7 +16,7 @@
             android:layout_height="match_parent"
             android:id="@+id/note_toolbar">
 
-
+            <include layout="@layout/layout_note_toolbar"/>
         </androidx.appcompat.widget.Toolbar>
 
     </com.google.android.material.appbar.AppBarLayout>
@@ -28,6 +28,7 @@
         android:textSize="23sp"
         android:textColor="#000"
         android:gravity="top"
-        android:padding="5dp"/>
+        android:padding="5dp"
+        android:imeOptions="flagNoExtractUi"/>
 
 </LinearLayout>
